@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    padding-top: 30px;
+    min-height: 70px;
+    background-color: #e4e4e4;
+    border-bottom: 4px solid #e8291d;
+}
+
+header h1{
+    float: left;
+}
+
+header nav{
+    margin-top: 12px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a, header h1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+    color: #e8291d;
+}
+
+.section-1{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,27,87,1) 35%, rgba(0,212,255,1) 100%);
+    min-height: 400px;
+    width: 100%;
+    color: white;
+}
+
+.section-1 h3{
+    padding:125px 0 50px 0;
+    font-size: 50px;
+}
+
+#footer{
+    text-align: center;
+    background-color: #e8291d;
+    padding: 30px;
+    color:#fff;
+}
+
+
+/* login.html */
+
+
+
+.form-cont{
+    width: 60%;
+    margin: auto;
+}
+
+.form-cont form{
+    display: block;
+}
+
+.form-cont form input{
+    margin: 12px;
+    min-height: 20px;
+    border-radius: 4px;
+    width: 60%;
+    padding: 1%;
+        
+}
+
+.form-cont form input[type="button"]{
+    border: none;
+    width: 65%;
+    min-height: 25px;
+    font-size: 15px;
+    background-color: rgb(19, 219, 19);
+    color: #fff;
+
+}
+
+.form-cont form input[type="button"]:hover{
+    background-color: rgb(21, 153, 21);
+    cursor: pointer;
+}
